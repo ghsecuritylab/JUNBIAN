@@ -14,7 +14,7 @@
 孙笑川|特殊语音|OK
 刘波|特殊语音|OK
 
-(```)
+```
 	rt_pin_mode(ESP28661, PIN_MODE_OUTPUT);
 	rt_pin_write(ESP28661, PIN_HIGH);
 	
@@ -25,4 +25,4 @@
   serial = rt_device_find(SAMPLE_UART_NAME);
 	rt_device_open(serial, RT_DEVICE_FLAG_INT_RX);
 	
-(```)
+```
