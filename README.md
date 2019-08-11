@@ -16,15 +16,16 @@
 刘波|特殊语音|OK
 
 
-```flow
-st=>start: 开始
-op=>operation: My Operation
+st=>start: Start:>开始
+io=>inputoutput: verification
+op=>operation: Your Operation
 cond=>condition: Yes or No?
+sub=>subroutine: Your Subroutine
 e=>end
-st->op->cond
+
+st->io->op->cond
 cond(yes)->e
-cond(no)->op
-&```
+cond(no)->sub->io
 
 ---
 
