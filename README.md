@@ -1,4 +1,5 @@
 # THE PROJECT JUNBIAN
+## 多功能声控物联网小夜灯
 
 
 ~~完成可云端控制，物理声音控制的亚克力灯芯~~
@@ -14,7 +15,20 @@
 孙笑川|特殊语音|OK
 刘波|特殊语音|OK
 
+
+```flow
+st=>start: 开始
+op=>operation: My Operation
+cond=>condition: Yes or No?
+e=>end
+st->op->cond
+cond(yes)->e
+cond(no)->op
+&```
+
+
 ```
+/*这里是示例*/
 	rt_pin_mode(ESP28661, PIN_MODE_OUTPUT);
 	rt_pin_write(ESP28661, PIN_HIGH);
 	
