@@ -28,7 +28,6 @@ cond(no)->op
 
 
 ```
-/*这里是示例*/
 	rt_pin_mode(ESP28661, PIN_MODE_OUTPUT);
 	rt_pin_write(ESP28661, PIN_HIGH);
 	
