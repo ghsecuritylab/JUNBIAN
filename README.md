@@ -37,6 +37,5 @@ rt_pin_mode(ESP28661, PIN_MODE_OUTPUT);
   static rt_device_t serial;              /* 串口设备句柄 */    
 /* 查找串口设备 */
   serial = rt_device_find(SAMPLE_UART_NAME);
-	rt_device_open(serial, RT_DEVICE_FLAG_INT_RX);
-	
+	rt_device_open(serial, RT_DEVICE_FLAG_INT_RX);	
 ```
